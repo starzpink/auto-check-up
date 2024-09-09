@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChecklistActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize"
+                app:menu="@menu/menu_top_app_bar"
+                app:navigationIcon="?attr/actionModeCloseDrawable"
+                app:title="" />
+
+            <TextView
+                android:id="@+id/textManutencao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:text="Manutenção -"
+                android:textColor="#291959"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxOleo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Óleo do motor;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFluidoTrans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fluído de transmissão;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFreio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fluído de freio;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxDirecao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fluído de direção hidraúlica;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPneus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pneus e estepe;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFreios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Freios;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxEletrico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sistema elétrico;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxRefri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sistema de refrigeração;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxMangueira"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Correias e mangueiras;"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textDocumentacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:text="Documentação -"
+                android:textColor="#291959"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxCNH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CNH;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxCRLV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CRLV;"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textKit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:text="Kit de emergência -"
+                android:textColor="#291959"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxTriangulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Triângulo de sinalização;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFerramentas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ferramentas básicas;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxLanterna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lanterna;"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxCabos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Cabos para dar partida no carro;"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

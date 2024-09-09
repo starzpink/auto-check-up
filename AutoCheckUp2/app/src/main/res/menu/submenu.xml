@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/action_edit_vehicles"
+            android:onClick="onEdit"
+            android:title="Editar Lista de Veículos" />
+        <item
+            android:id="@+id/action_logout"
+            android:onClick="onLogout"
+            android:title="Sair da Conta" />
+</menu>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize"
+                app:menu="@menu/menu_top_app_bar"
+                app:navigationIcon="?attr/actionModeCloseDrawable"
+                app:title="          "/>
+
+            <TextView
+                android:id="@+id/registro_de"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center_horizontal"
+                android:text="@string/registro_de"
+                android:textAppearance="@style/registro_de" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <EditText
+                android:id="@+id/apelido_veiculo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Apelido:*"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/modelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Modelo:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/ano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Ano:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/placa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Placa:"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/media_km"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Média de km rodados por mês:*"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/km_atual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Quilometragem atual:*"
+                android:inputType="text" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <TextView
+                android:id="@+id/datas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center_vertical"
+                android:text="@string/datas"
+                android:textAppearance="@style/datas" />
+
+            <EditText
+                android:id="@+id/oleo_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Troca de óleo:"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/fluido_t_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Fluido de transmissão:"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/fluido_f_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Fluido de freio:"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/fluido_dh_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Fluido de direção hidráulica:"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/troca_pneus_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Troca de Pneus:"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/freios_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Freios:"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/seletrico_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Sistema Elétrico:"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/sref_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Sistema de Refrigeração:"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/cor_mang_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Correias e Mangueiras:"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/rev_geral_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Última revisão completa:*"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/ultabastecimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Último abastecimento:*"
+                android:inputType="date" />
+
+            <LinearLayout
+                android:id="@+id/tip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/tipoCombustivel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:hint="Combustível:"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/qt_litros"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:ems="10"
+                    android:fontFamily="@font/lato_bold"
+                    android:hint="Litros:"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <Button
+                android:id="@+id/salvar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="salvar"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                app:cornerRadius="0dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

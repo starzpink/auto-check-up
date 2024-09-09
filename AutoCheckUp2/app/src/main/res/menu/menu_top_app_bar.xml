@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/check"
+        android:contentDescription="abrir checklist"
+        android:icon="@drawable/checklist_rtl"
+        android:iconTint="@color/purple"
+        android:title="checklist"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/notification"
+        android:contentDescription="abrir lista de notificações"
+        android:icon="@drawable/notifications"
+        android:title="notificações"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_more_options"
+        android:icon="@drawable/more"
+        android:orderInCategory="100"
+        android:title="Mais Opções"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/action_edit_vehicles"
+                android:title="Editar" />
+            <item
+                android:id="@+id/action_logout"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+
+</menu>

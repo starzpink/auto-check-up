@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AutoCheckUp</string>
+    <string name="login">login</string>
+    <string name="autocheckup">Auto\nCheck-Up</string>
+    <string name="e_mail"> e-mail</string>
+    <string name="senha">senha</string>
+    <string name="cadastro">cadastro do usuário</string>
+    <string name="sua_senha_d">Sua senha deve conter:\nPelo menos 8 caracteres.\nPelo menos uma letra maiúscula (A-Z).\nPelo menos um número (0-9).\nPelo menos um caractere especial como ! @ # .</string>
+    <string name="cadastre_se">cadastre-se</string>
+    <string name="registro_de">registro de veículo</string>
+    <string name="datas">datas:</string>
+</resources>

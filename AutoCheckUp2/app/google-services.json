@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "592588172150",
+    "project_id": "autocheckup-87899",
+    "storage_bucket": "autocheckup-87899.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592588172150:android:20da4bb00bf526ced92857",
+        "android_client_info": {
+          "package_name": "com.example.autocheckup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL0WVgD0q8h97Maf13BIQlthsC1D4TLW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
